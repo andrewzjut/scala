@@ -18,5 +18,26 @@ object StringUtilV1 {
 
     val list:List[String]=makeList("zhangtong","is a good boy")
     list.foreach(println(_))
+
+    // List of Strings
+    val fruit: List[String] = List("apples", "oranges", "pears")
+
+    // List of Integers
+    val nums: List[Int] = List(1, 2, 3, 4)
+
+    // Empty List.
+    val empty: List[Nothing] = List()
+
+    // Two dimensional list
+    val dim: List[List[Int]] =
+      List(
+        List(1, 0, 0),
+        List(0, 2, 0),
+        List(0, 0, 3)
+      )
+    println(dim(1)(1))
+
+    val t1: Tuple2[Int, String] = (1, "zhangtong")
+    println(t1._2)
   }
 }

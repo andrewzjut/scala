@@ -12,4 +12,5 @@ object OptionTest extends App {
 
   println(stateCapitals.get("alabama").get)
   println(stateCapitals.get("Unknow").getOrElse("oops"))
+  List
 }
